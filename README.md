@@ -280,7 +280,7 @@ adb shell pm uninstall --user 0 com.miui.carlink #CarWith
 
 adb shell pm uninstall --user 0 com.xiaomi.ab #小米售后支持
 
-adb shell pm uninstall --user 0 com.miui.phrase #常用语（无卵用）
+adb shell pm uninstall --user 0 com.miui.phrase #剪切板和常用语（使用系统自带输入法并开启`语言和输入法 - 全面屏键盘设置 - 全面屏键盘优化`时，键盘下方出现剪切板历史内容选取器），删除后开启`全面屏键盘优化`功能会导致键盘最下面一行被拉长。
 
 adb shell pm uninstall --user 0 com.miui.contentcatcher #应用扩展服务（也与广告有关）
 
